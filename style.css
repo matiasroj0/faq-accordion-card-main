@@ -253,7 +253,7 @@ hr {
 @media (max-height: 668px) {
     .card{
         min-height: 34rem;
-        margin-top: 4rem;
+        margin-top: 7rem;
     }
     .question-grid .question {
         font-size: .8rem;
