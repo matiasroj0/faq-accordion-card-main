@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- ------------ -->
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <img class="box" src="/images/illustration-box-desktop.svg" alt="box illustration">
+    <section class="card">
+      <div class="img-container">
+        <img class="desktop-img" src="/images/illustration-woman-online-desktop.svg" alt="woman using screen illustration">
+        <img class="mobile-img hidden" src="/images/illustration-woman-online-mobile.svg" alt="woman using screen illustration">
+      </div>
+      <div class="faq">
+        <h1>FAQ</h1>
+        <div class="question-container">
+          <div class="question-grid">
+            <h5 class="question question1">How many team members can I invite?</h5>
+            <img class="arrow arrow1" src="/images/icon-arrow-down.svg" alt="arrow icon">
+          </div>
+          <hr>
+          <p class="answers hidden answer1">You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</p>
+        </div>
+        <div class="question-container">
+          <div class="question-grid">
+            <h5 class="question question2 selected">What is the maximum file upload size?</h5>
+            <img class="arrow rotated arrow2" src="/images/icon-arrow-down.svg" alt="arrow icon">
+          </div>
+          <hr>
+          <p class="answers answer2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+        <div class="question-container">
+          <div class="question-grid">
+            <h5 class="question question3">How do I reset my password? </h5>
+            <img class="arrow arrow3" src="/images/icon-arrow-down.svg" alt="arrow icon">
+          </div>
+          <hr>
+          <p class="answers hidden answer3">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you. </p>
+        </div>
+        <div class="question-container">
+          <div class="question-grid">
+            <h5 class="question question4">Can I cancel my subscription?</h5>
+            <img class="arrow arrow4" src="/images/icon-arrow-down.svg" alt="arrow icon">
+          </div>
+          <hr>
+          <p class="answers hidden answer4">Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+        <div class="question-container">
+          <div class="question-grid">
+            <h5 class="question question5">Do you provide additional support?</h5>
+            <img class="arrow arrow5" src="/images/icon-arrow-down.svg" alt="arrow icon">
+          </div>
+          <hr>
+          <p class="answers hidden answer5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
