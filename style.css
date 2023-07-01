@@ -249,3 +249,19 @@ hr {
     }
 
 }
+
+@media (max-height: 668px) {
+    .card{
+        min-height: 34rem;
+        margin-top: 4rem;
+    }
+    .question-grid .question {
+        font-size: .8rem;
+        color: var(--very-dark-grayish-blue);
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        padding-bottom: .4rem;
+    }
+}
